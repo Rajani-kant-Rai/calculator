@@ -1,6 +1,6 @@
 let input = document.getElementById('inputbox');
 let buttons = document.querySelectorAll('button');
-let string = "";
+let string = "Monu";
 let arr = Array.from(buttons);
 arr.forEach(button => {
     button.addEventListener('click',(e)=>{
